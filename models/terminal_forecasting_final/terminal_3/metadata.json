@@ -1,0 +1,30 @@
+{
+    "terminal": "Terminal 3",
+    "selected_model": "ANN",
+    "training_records": 314,
+    "training_start": "2000-07-01",
+    "training_end": "2026-08-01",
+    "feature_count": 16,
+    "features": [
+        "Year",
+        "Month",
+        "Quarter",
+        "Month_Sin",
+        "Month_Cos",
+        "Lag_1",
+        "Lag_2",
+        "Lag_3",
+        "Lag_6",
+        "Lag_12",
+        "Rolling_Mean_3",
+        "Rolling_Mean_6",
+        "Rolling_Mean_12",
+        "Rolling_Std_3",
+        "Rolling_Std_6",
+        "Rolling_Std_12"
+    ],
+    "selected_epochs": 15,
+    "training_type": "Final deployment training",
+    "model_file": "ann_final.keras",
+    "performance_note": "Training completed using all available feature records. No independent test evaluation was performed in this script."
+}

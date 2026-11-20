@@ -1,0 +1,20 @@
+
+AEROCAST AI
+AIRCRAFT FORECASTING - FINAL EVALUATION
+
+Common test records: 63
+Test period: 2021-06 to 2026-08
+
+Best model by MAE:
+Original ANN
+
+MAE: 684.39
+RMSE: 869.58
+R2: 0.7948
+MAPE: 4.82%
+WAPE: 4.71%
+
+Original ANN remains the selected champion from the
+previous aircraft model evaluation.
+
+No model was retrained or overwritten by this script.

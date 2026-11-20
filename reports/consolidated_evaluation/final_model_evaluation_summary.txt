@@ -1,0 +1,24 @@
+
+AEROCAST AI
+CONSOLIDATED PASSENGER FORECASTING MODEL EVALUATION
+
+Test period: 2021-06 to 2026-08
+Test records: 63
+
+Models evaluated:
+1. Linear Regression
+2. Random Forest
+3. Original ANN
+4. Experimental ANN
+
+Best model based on MAE: Original ANN
+
+MAE: 228125.32
+RMSE: 281524.25
+R2 Score: 0.8767
+MAPE: 5.99%
+WAPE: 5.64%
+
+Evaluation method:
+Chronological 80:20 train-test split.
+All four models are compared on the same test records.

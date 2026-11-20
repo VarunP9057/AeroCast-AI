@@ -1,0 +1,15 @@
+OPERATIONAL PRESSURE MODEL TRAINING SUMMARY
+=======================================================
+Training records: 251
+Testing records: 63
+Features: 23
+Best validation model: Linear_Regression
+
+HELD-OUT TEST COMPARISON
+            Model       MAE      RMSE        R2      MAPE      WAPE
+              ANN  4.144064  5.514094  0.764572  6.716764  6.306321
+Linear_Regression  6.198823  7.413571  0.574436 10.207539  9.433196
+      Extra_Trees  7.362272  8.646533  0.421113 11.451058 11.203699
+   Seasonal_Naive 10.087937 14.063376 -0.531401 17.562067 15.351539
+Gradient_Boosting 13.146896 15.045637 -0.752795 21.138691 20.006578
+    Random_Forest 14.846584 15.791413 -0.930865 22.881871 22.593116

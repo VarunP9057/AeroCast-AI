@@ -1,0 +1,42 @@
+{
+    "project": "AeroCast AI",
+    "module": "Operational Pressure Forecasting",
+    "selected_model": "Linear Regression",
+    "selection_method": "Four-fold chronological walk-forward validation",
+    "target": "Operational Pressure Index",
+    "test_start": "2021-06-01",
+    "training_records": 251,
+    "testing_records": 63,
+    "features": [
+        "Year",
+        "Month",
+        "Quarter",
+        "Month_Sin",
+        "Month_Cos",
+        "Time_Index",
+        "Pressure_Lag_1",
+        "Pressure_Lag_2",
+        "Pressure_Lag_3",
+        "Pressure_Lag_6",
+        "Pressure_Lag_12",
+        "Pressure_Rolling_Mean_3",
+        "Pressure_Rolling_Mean_6",
+        "Pressure_Rolling_Mean_12",
+        "Pressure_Rolling_Std_3",
+        "Pressure_Rolling_Std_6",
+        "Pressure_Rolling_Std_12",
+        "Passenger_Lag_1",
+        "Passenger_Lag_12",
+        "Aircraft_Lag_1",
+        "Aircraft_Lag_12",
+        "Cargo_Lag_1",
+        "Cargo_Lag_12"
+    ],
+    "test_metrics": {
+        "MAE": 6.198823157764489,
+        "RMSE": 7.413571477369442,
+        "R2": 0.574436042438134
+    },
+    "model_path": "/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/operational_pressure_final/operational_pressure_final_model.pkl",
+    "feature_path": "/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/operational_pressure_final/operational_pressure_final_features.pkl"
+}

@@ -1,0 +1,7 @@
+Metric 1,Metric 2,Correlation,Absolute Correlation
+Passenger Count,Total Landed Weight,0.948,0.948
+Landing Count,Total Landed Weight,0.924,0.924
+Passenger Count,Landing Count,0.901,0.901
+Cargo Weight LBS,Total Landed Weight,0.286,0.286
+Landing Count,Cargo Weight LBS,0.137,0.137
+Passenger Count,Cargo Weight LBS,0.065,0.065

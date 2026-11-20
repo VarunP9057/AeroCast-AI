@@ -1,0 +1,33 @@
+
+CARGO FORECASTING EXPERIMENT 2
+=======================================
+
+Dataset:
+/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/data/features/cargo_advanced_features.csv
+
+Total Records: 302
+Input Features: 24
+
+Training Records: 239
+Testing Records: 63
+
+Training Period:
+2001-07-01 00:00:00 to 2021-05-01 00:00:00
+
+Testing Period:
+2021-06-01 00:00:00 to 2026-08-01 00:00:00
+
+Best Test Model: Advanced_ANN
+
+Best Test MAE: 3948764.00
+Best Test RMSE: 5286603.48
+Best Test R2: 0.7412
+Best Test MAPE: 4.11%
+Best Test WAPE: 4.09%
+
+Note:
+The test results are held-out evaluation results.
+CV MAE is used as the training-period model-selection
+criterion for traditional models.
+The ANN is reported separately because it was not
+included in the traditional-model cross-validation.

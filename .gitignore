@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Temporary files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+catboost_info/
+
+# IDE
+.vscode/
+.idea/
+
+# Backups
+backups/
+
+# Logs
+*.logfrontend_old/

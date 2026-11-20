@@ -1,0 +1,12 @@
+Feature_1,Feature_2,Correlation
+Year,Time_Index,0.998749315542816
+Month,Quarter,0.9718037205034104
+Lag_1,Rolling_Mean_3,0.9295606171518079
+Lag_2,Rolling_Mean_3,0.9481522906505527
+Lag_2,Rolling_Mean_6,0.9021693613846167
+Lag_3,Rolling_Mean_3,0.9319558606613616
+Lag_3,Rolling_Mean_6,0.9212452682045563
+Rolling_Mean_3,Rolling_Mean_6,0.9611512750079121
+Rolling_Mean_6,Rolling_Mean_12,0.9524193593165137
+Rolling_Mean_12,Rolling_Mean_24,0.9415360725533898
+Previous_Year_Change,Previous_Year_Change_Pct,0.9618369485821552

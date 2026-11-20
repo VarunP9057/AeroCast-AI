@@ -1,0 +1,5 @@
+Terminal,Selected_Model,Training_Records,Training_Start,Training_End,Features,Selected_Epochs,Saved_Model
+International,Random_Forest,314,2000-07-01,2026-08-01,16,,/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/terminal_forecasting_final/international/random_forest_final.pkl
+Terminal 1,ANN,314,2000-07-01,2026-08-01,16,18.0,/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/terminal_forecasting_final/terminal_1/ann_final.keras
+Terminal 2,Linear_Regression,173,2012-04-01,2026-08-01,16,,/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/terminal_forecasting_final/terminal_2/linear_regression_final.pkl
+Terminal 3,ANN,314,2000-07-01,2026-08-01,16,15.0,/Users/varunpawar/Desktop/ML PROJECT/AEROCAST_AI/models/terminal_forecasting_final/terminal_3/ann_final.keras

@@ -1,0 +1,17 @@
+AEROCAST AI - AIRCRAFT MOVEMENT FORECASTING
+============================================
+Total records: 314
+Training records: 251
+Testing records: 63
+Training period: 2000-07 to 2021-05
+Testing period: 2021-06 to 2026-08
+
+MODEL COMPARISON
+ Rank             Model         MAE        RMSE        R2      MAPE      WAPE
+    1               ANN  684.385789  869.579711  0.794789  4.822868  4.707801
+    2 Linear Regression  808.791789 1088.693348  0.678343  5.661157  5.563574
+    3    Seasonal Naive 1857.047619 2486.534575 -0.677918 13.866143 12.774391
+    4     Random Forest 2732.408447 3391.717755 -2.121916 19.750276 18.795884
+
+Best model based on MAE: ANN
+Best MAE: 684.39

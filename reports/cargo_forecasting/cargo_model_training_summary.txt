@@ -1,0 +1,29 @@
+
+AEROCAST AI
+CARGO DEMAND FORECASTING - EXPERIMENT 1
+
+Dataset Records: 314
+Features: 14
+
+Training Records: 251
+Testing Records: 63
+
+Training Period:
+2000-07-01 00:00:00 to 2021-05-01 00:00:00
+
+Testing Period:
+2021-06-01 00:00:00 to 2026-08-01 00:00:00
+
+Best Model by MAE:
+Random Forest
+
+MAE: 5130271.34
+RMSE: 6457688.68
+R2: 0.6139
+MAPE: 5.36%
+WAPE: 5.31%
+
+Models trained:
+Linear Regression
+Random Forest
+Artificial Neural Network
